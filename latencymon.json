@@ -13,7 +13,7 @@
     "depends": "innounp",
     "pre_install": [
         "$manifest.innosetup = $true",
-        "unpack_inno \"LatencyMon.exe\" $manifest $dir"
+        "Expand-InnoArchive \"LatencyMon.exe\" $manifest $dir"
     ],
     "shortcuts": [
         [
